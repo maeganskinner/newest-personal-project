@@ -1,0 +1,90 @@
+div {
+    background-image: url("./clothes.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: center;
+    background-blend-mode: lighten;
+    border-radius: 50%;
+    
+}
+
+.logo {
+    font-size: 130px;
+    color: black;
+    font-family: 'Frank Ruhl Libre', serif;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    letter-spacing: 25px;
+    padding: 5px;
+    margin: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0)
+    
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    size: 50px;
+}
+
+
+.simple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    size: 60px;
+    letter-spacing: 5px;
+
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+   
+}
+
+.resize {
+    width: 20px;
+    height: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+  }
+
+  .fa-facebook {
+    background: rgb(140, 156, 190);
+    color: white;
+    size: 0; 
+
+  }
+
+  .fa-twitter {
+    background: rgb(140, 156, 190);
+    color: white;
+  }
+
+  .fa-instagram {
+      background: rgb(140, 156, 190);
+      color: white;
+  }
